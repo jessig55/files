@@ -1,0 +1,8 @@
+c = int(input('How many total pages are in your document? '))
+d = int(input('How many of those pages are drawings? (Large or pullout) '))
+
+e = round((c-d)/50)
+a = print('Number of Reports:',e)
+b = print('Number of Drawings:', (d))
+
+print('Total Number of Files:', e+d)
